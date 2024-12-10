@@ -10,38 +10,38 @@ const proxyIPs = ["ts.hpc.tw"]; //ts.hpc.tw edgetunnel.anycast.eu.org bestproxy.
 const cn_hostnames = [''];
 let CDNIP = 'www.visa.com.sg'
 // http_ip
-let IP1 = 'www.visa.com'
-let IP2 = 'cis.visa.com'
-let IP3 = 'africa.visa.com'
-let IP4 = 'www.visa.com.sg'
-let IP5 = 'www.visaeurope.at'
-let IP6 = 'www.visa.com.mt'
-let IP7 = 'qa.visamiddleeast.com'
+let IP1 = '104.17.0.0'
+let IP2 = '104.20.0.0'
+let IP3 = '104.24.0.0'
+let IP4 = '104.26.0.0'
+let IP5 = '104.27.0.0'
+let IP6 = '162.159.0.0'
+let IP7 = '172.66.0.0'
 
 // https_ip
-let IP8 = 'usa.visa.com'
-let IP9 = 'myanmar.visa.com'
-let IP10 = 'www.visa.com.tw'
-let IP11 = 'www.visaeurope.ch'
-let IP12 = 'www.visa.com.br'
-let IP13 = 'www.visasoutheasteurope.com'
+let IP8 = '[2606:4700:4409:f82d:e79:9177:e4a3:6aa0]'
+let IP9 = '[2606:4700::]'
+let IP10 = '[2606:4700:2d:cda8:f2b:9eb0:fca2:4ce9]'
+let IP11 = '[2a06:98c1:3101:f637:3509:a3b9:5b0a:12b9]'
+let IP12 = '[2a06:98c1:3107:d7aa:b4d:46d5:8bd6:bb01]'
+let IP13 = '[2606:4700:2d:cda8:f2b:9eb0:fca2:4ce9]'
 
 // http_port
-let PT1 = '80'
-let PT2 = '8080'
-let PT3 = '8880'
-let PT4 = '2052'
-let PT5 = '2082'
-let PT6 = '2086'
+let PT1 = '2095'
+let PT2 = '2095'
+let PT3 = '2095'
+let PT4 = '2095'
+let PT5 = '2095'
+let PT6 = '2095'
 let PT7 = '2095'
 
 // https_port
-let PT8 = '443'
-let PT9 = '8443'
-let PT10 = '2053'
-let PT11 = '2083'
-let PT12 = '2087'
-let PT13 = '2096'
+let PT8 = '2095'
+let PT9 = '2095'
+let PT10 = '2095'
+let PT11 = '2095'
+let PT12 = '2095'
+let PT13 = '2095'
 
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 let proxyPort = proxyIP.includes(':') ? proxyIP.split(':')[1] : '443';
